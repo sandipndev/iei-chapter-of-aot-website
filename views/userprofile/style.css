@@ -1,0 +1,12 @@
+/* Oh, we need Product Sans */
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../_fonts/Product\ Sans\ Regular.ttf');
+}
+
+body {
+    
+    /* Applying Product Sans */
+    font-family: 'Product Sans', sans-serif;
+    
+}
