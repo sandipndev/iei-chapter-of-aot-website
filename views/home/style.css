@@ -13,11 +13,11 @@ body {
     height: 500vh;
     
     /* Gradient */
-    background: #1ca3ec; /* Old browsers */
-    background: -moz-linear-gradient(top,  #1ca3ec 0%, #0f5e9c 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #1ca3ec 0%,#0f5e9c 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #1ca3ec 0%,#0f5e9c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca3ec', endColorstr='#0f5e9c',GradientType=0 ); /* IE6-9 */
+    background: #1BA2EB; /* Old browsers */
+    background: -moz-linear-gradient(top,  #1BA2EB 0%, #4255C4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #1BA2EB 0%,#4255C4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #1BA2EB 0%,#4255C4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1BA2EB', endColorstr='#4255C4',GradientType=0 ); /* IE6-9 */
 
 }
 
@@ -30,3 +30,27 @@ body {
         width: 75%;
     }
 }
+
+.page {
+    margin-top: 20vh;
+}
+
+/* NavBar */
+nav {
+    background-color: inherit;
+}
+
+/* Title shrink for desktop*/
+#main-title {
+    max-width: 800px;
+}
+
+/* logo size */
+#logo {
+    max-width: 150px;
+}
+
+.floating-img {
+    width: 90%; 
+}
+
